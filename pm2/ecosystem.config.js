@@ -9,6 +9,7 @@ module.exports = {
       autorestart: true,
       watch: false,
       max_memory_restart: '180M',
+      node_args: '--experimental-vm-modules',
       env: {
         NODE_ENV: 'production',
         HOSTNAME: '0.0.0.0',
