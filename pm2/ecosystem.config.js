@@ -3,6 +3,7 @@ module.exports = {
     {
       name: 'Yohaku',
       script: './server.js',
+      type: 'module', 
       cwd: __dirname,
       exec_mode: 'fork',
       instances: 1,
